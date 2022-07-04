@@ -1,0 +1,36 @@
+body{
+    font-family: 'Gentium Book Plus', serif;
+    margin: 0;
+}
+section{
+    display: flex;
+}
+.fst-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    padding: none;
+}
+.bio-part{
+    width: 50%;
+    margin-left:6% ;
+
+}
+.bio-part h1{
+    font-size: 60px;
+}
+.bio-part h2{
+    font-size:40px;
+}
+.bio-part span{
+    color: orange;
+}
+.bio-part img{
+    width: 80%;
+}
+.hire-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 10px;
+}
