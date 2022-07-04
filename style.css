@@ -4,6 +4,7 @@ body{
 }
 section{
     display: flex;
+   
 }
 .fst-section{
     background-image: url("images/top-banner.png");
@@ -26,6 +27,7 @@ section{
 }
 .bio-part img{
     width: 80%;
+    margin-top: 10px;
 }
 .hire-button{
     text-decoration: none;
