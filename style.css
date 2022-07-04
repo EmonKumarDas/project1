@@ -2,7 +2,7 @@ body{
     font-family: 'Gentium Book Plus', serif;
     margin: 0;
 }
-section{
+.welcome{
     display: flex;
    
 }
@@ -10,19 +10,24 @@ section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
     padding: none;
+    margin-bottom: 150px;
 }
+
 .bio-part{
-    width: 50%;
+    width: 40%;
     margin-left:6% ;
 
 }
-.bio-part h1{
+h1{
     font-size: 60px;
 }
-.bio-part h2{
+p{
+    text-align: justify;
+}
+h2{
     font-size:40px;
 }
-.bio-part span{
+span{
     color: orange;
 }
 .bio-part img{
@@ -35,4 +40,38 @@ section{
     background-image: linear-gradient(orange,tomato);
     padding: 10px 40px;
     border-radius: 10px;
+    font-weight: 600;
+}
+.sec-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: none;
+}
+.Experiences{
+    display: flex;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+
+}
+
+.full-stk-dev{
+    margin-left: 5%;
+    padding: 1%;
+    width: 35%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    border-left: 10px solid rgb(255, 60, 0);
+}
+.baby-web-dev{
+    padding: 1%;
+    width: 35%;
+    margin-left: 5%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    border-left: 10px solid rgb(0, 17, 255);
+}
+.footer{
+    margin-top: 7%;
+    text-align: center;
 }
